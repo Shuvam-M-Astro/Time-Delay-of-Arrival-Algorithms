@@ -1048,7 +1048,7 @@ def Fang_Err(P,Err,RA_set2,DEC_set2):
 
 def Err_RA(DEC):
 
-    RA = [15]# np.linspace(0,360,1000)#np.linspace(166,180)#np.linspace(0,360,361)
+    RA = [DEC]# np.linspace(0,360,1000)#np.linspace(166,180)#np.linspace(0,360,361)
     
     val = 500
     DEC = np.hstack(  (     (np.linspace(91,179,val) ,   (np.linspace(1,89,val))              )         )                                )
