@@ -251,19 +251,19 @@ x8 = 1e-2
 y8 = 1e-100
 z8 = r_E
 
-x9 = r_E*np.cos(50/rad) 
+x9 = r_E*np.cos(45/rad) 
 z9 = np.sqrt(r_E**2-x9**2)
 y9 = 1e-2
 
-x10 = -r_E*np.sin(40/rad)
+x10 = -r_E*np.sin(45/rad)
 z10 = np.sqrt(r_E**2-x10**2)
 y10 = 1e-3
 
-z11 = -r_E*np.cos(40/rad)
+z11 = -r_E*np.cos(45/rad)
 x11 = -1*np.sqrt(r_E**2-z11**2)
 y11= 2e-3
 
-z12 = -r_E*np.sin(40/rad)
+z12 = -r_E*np.sin(45/rad)
 x12 = np.sqrt(r_E**2-z12**2)
 y12 = 3e2
 
